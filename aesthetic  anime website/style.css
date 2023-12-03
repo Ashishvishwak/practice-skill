@@ -1,0 +1,128 @@
+* {
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-weight: 500;
+color: white;
+font-family: 'Poppins', sans-serif;
+}
+html,
+body {
+height: 100%;
+width: 100%;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+
+#nav {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 150px;
+    gap: 70px;
+    position: fixed;
+    z-index: 99;
+    transition: all 0.6 ease-in-out ;
+    cursor: pointer;
+
+}
+
+#nav img {
+    height: 40px;
+    margin-left: 78px;
+}
+
+#nav h4 {
+    text-transform: uppercase;
+}
+#nav h4:hover{
+    color: rgb(172, 163, 163);
+    transition: all 0.6 ease-in-out ;
+}
+#logo{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    left: -4px;
+}
+
+video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: fixed;
+}
+
+#main {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.264);
+}
+
+#page1 {
+    height: 100vh;
+    width: 100%;
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+
+#page1 h1 {
+    font-size: 55px;
+    font-weight: 900;
+}
+
+#page1 h2 {
+    font-size: 55px;
+    font-weight: 900;
+}
+
+#page1 h3 {
+    font-size: 34px;
+    font-weight: 600;
+}
+
+#page2 {
+    height: 100vh;
+    width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+}
+#page2 a img , #card img{
+    height: 253px;
+    width: 254px;
+    object-fit: cover;
+    transition: all 1s ease-in-out;
+    opacity: 0.4;
+    gap: 50px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+#card a img,#card img:hover {
+    transform: scale(0.9);
+    border-top-left-radius: 20%;
+    opacity: 1.0;
+}
+#page3{
+    position: relative; 
+}
+#footer1{
+    height: 200px;
+    width: 100%; 
+}
+#footer1 img{
+    height: 40px;
+    width: 40px;
+    bottom: 4%;
+}
+#footer1 p {
+   position: relative;
+   top: 100px;
+   text-align: center;
+   
+    text-transform: uppercase;
+}
